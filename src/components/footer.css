@@ -1,0 +1,26 @@
+.footerbody {
+  background-color: white;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: rgb(104, 101, 92);
+  color: white;
+}
+
+.footerbody :not(:last-child) {
+  margin-right: 5px;
+}
+
+.secondspan {
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .footerbody {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}

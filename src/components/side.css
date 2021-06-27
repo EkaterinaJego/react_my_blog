@@ -1,0 +1,29 @@
+.sidewindow img {
+  object-fit: cover;
+  width: 100%;
+  height: 156px;
+}
+
+.sidewindow {
+  width: 35%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  margin-left: 30px;
+  height: 50vh;
+}
+
+@media (max-width: 1064px) {
+  .sidewindow {
+    height: 55vh;
+  }
+}
+
+@media (max-width: 750px) {
+  .sidewindow {
+    display: none;
+  }
+}

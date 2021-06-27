@@ -1,1 +1,24 @@
 /* Other rules */
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.main {
+  margin: auto;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centralpart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
